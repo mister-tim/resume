@@ -1,0 +1,26 @@
+#navbtn{
+    padding: 10;
+    border: solid 2px #004777;
+    border-radius: 75%;
+    text-align: center;
+    background-color: #1098F7;
+    max-width: 100px;
+}
+#nav{
+    display: none;
+    position: absolute;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: row;
+    z-index: 1;
+    border-top: solid 2px #004777;
+}
+.navP{
+    padding: 10;
+    text-align: center;
+    border-bottom: solid 2px #004777;
+    border-left: solid 2px #004777;
+    border-right: solid 2px #004777;
+    background-color: #1098F7;
+    margin: 0;
+    font-size: 50px;
+}

@@ -1,0 +1,14 @@
+#landing{
+    align-content: center;
+}
+section{
+    display: none;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+h2{
+    font-size: 40px;
+    grid-row: 2;
+    text-align: center;
+}
